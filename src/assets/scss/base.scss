@@ -68,9 +68,10 @@ input[type="color"]:focus,
 
 .plain-card {
   border-radius: 7px;
-  border: none;
-  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
-  padding: 25px;
+    border: none;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 27%);
+    padding: 25px;
+    background-color: #f9f9f9;
 }
 
 .all-center {
