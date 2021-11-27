@@ -53,6 +53,11 @@
           @include respond(mobile) {
             font-size: 1.063rem;
           }
+          i{
+            color: #78068d;
+            font-size: 13px;
+            padding-right: 5px;
+          }
         }
       }
     }
