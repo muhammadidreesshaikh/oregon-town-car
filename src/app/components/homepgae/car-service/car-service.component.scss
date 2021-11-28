@@ -42,7 +42,7 @@
         margin-top: 1.875rem;
         .icon{
           i{
-            border: 0.188rem solid #78068d;
+            border: 0.188rem solid $purple;
             border-radius: 3.125rem;
             padding: 0.375rem 0.438rem;
             width: 35px;
@@ -58,7 +58,7 @@
               opacity: 0.5s;
               transition: 0.5s;
               border: 3px solid #fc6d43;
-              color: #78068d;
+              color: $purple;
             }
           }
         }

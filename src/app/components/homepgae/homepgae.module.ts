@@ -9,6 +9,7 @@ import { CarServiceComponent } from './car-service/car-service.component';
 import { BusinessMoveComponent } from './business-move/business-move.component';
 import { GlobalChauffeuredServicesComponent } from './global-chauffeured-services/global-chauffeured-services.component';
 import { SafetyMattersComponent } from './safety-matters/safety-matters.component';
+import { EstimateComponent } from './estimate/estimate.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { SafetyMattersComponent } from './safety-matters/safety-matters.componen
     CarServiceComponent,
     BusinessMoveComponent,
     GlobalChauffeuredServicesComponent,
-    SafetyMattersComponent
+    SafetyMattersComponent,
+    EstimateComponent
   ],
   imports: [
     CommonModule,
