@@ -1,0 +1,58 @@
+@import "../../../styles.scss";
+
+.about{
+  .service-heading{
+    h1{
+
+    }
+    p{
+
+    }
+    .main{
+      .left{
+        h4{
+
+        }
+        p{
+
+        }
+        .types{
+          ul{
+            li{
+              a{
+                &:hover{
+
+                }
+              }
+            }
+          }
+        }
+      }
+      .right{
+        img{
+
+        }
+      }
+    }
+    .service-request{
+      text-align: center;
+      .plain-card{
+        h5{
+
+        }
+        p{
+
+        }
+        .service-btn{
+          .main-btn{
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond(tablet) {
+
+}

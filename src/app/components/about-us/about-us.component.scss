@@ -93,8 +93,13 @@
         text-align: center;
       }
       .main-btn{
-        padding: 1.875rem;
+        padding: 1.563rem 1.25rem;
         font-size: 0.938rem;
+      }
+      i{
+        color: $white;
+        padding-left: 0.938rem;
+        font-size: 0.875rem;
       }
     }
   }
