@@ -3,7 +3,7 @@
 body {
   margin: 0;
   overflow-x: hidden !important;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
 h1,
@@ -62,16 +62,44 @@ input[type="color"]:focus,
   left: 15px;
   background: #cccccc29;
   padding: 5px 20px;
-  color: black;
+  color: $black;
   border-radius: 25px;
 }
 
 .plain-card {
   border-radius: 7px;
-    border: none;
-    box-shadow: 0 5px 15px rgb(0 0 0 / 27%);
-    padding: 25px;
-    background-color: $white;
+  border: none;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 27%);
+  padding: 25px;
+  background-color: $white;
+}
+
+.page-header{
+  text-align: center;
+  .main-header{
+    h1{
+      font-size: 35px;
+      font-weight: 600;
+      color: $black;
+      &::after{
+        content: "";
+        position: absolute;
+        top: 55%;
+        right: 46%;
+        width: 8%;
+        height: 4px;
+        border-radius: 15px;
+        background: $default;
+      }
+    }
+  }
+  .sub-header{
+    margin-top: 35px;
+    h6{
+      font-size: 16px;
+      color: $darkgray;
+    }
+  }
 }
 
 .all-center {
