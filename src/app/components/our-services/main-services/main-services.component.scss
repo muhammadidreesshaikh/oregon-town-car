@@ -1,0 +1,132 @@
+@import "../../../../styles.scss";
+
+.service{
+  padding: 60px 0;
+  .service-heading{
+    text-align: center;
+    margin-top: 50px;
+    h1{
+      font-size: 40px;
+      font-weight: 600;
+      color: $black;
+    }
+    p{
+      color: $darkgray;
+      font-size: 15px;
+      padding-top: 5px;
+      @include respond(tablet) {
+        font-size: 17px;
+        padding: 0 40px;
+      }
+      @include respond(mobile) {
+        padding: 5px 0;
+      }
+    }
+  }
+  .main{
+    margin-top: 60px;
+    @include respond(mobile) {
+      margin-top: 20px;
+    }
+    .service-inner{
+      margin-top: 50px;
+      .left{
+        margin-top: 40px;
+        @include respond(mobile) {
+          margin-top: 0;
+        }
+        h4{
+          font-size: 23px;
+          font-weight: 600;
+          color: $black;
+        }
+        .seprator{
+          background: $default;
+          width: 50px;
+          height: 3px;
+          border-radius: 7px;
+          margin-top: 10px;
+        }
+        p{
+          padding-top: 15px;
+          font-size: 15px;
+          color: $darkgray;
+          @include respond(tablet) {
+            font-size: 16px;
+          }
+          @include respond(mobile) {
+            font-size: 17px;
+          }
+        }
+        .types{
+          margin-top: 20px;
+          ul{
+            padding-left: 0;
+            list-style: none;
+            li{
+              padding-top: 10px;
+              a{
+                font-size: 16px;
+                color: $black;
+                @include respond(tablet) {
+                  font-size: 15px;
+                }
+                @include respond(mobile) {
+                  font-size: 17px;
+                }
+                @include respond(mobileM) {
+                  font-size: 15px;
+                }
+                i{
+                  padding-right: 7px;
+                  color: $purple;
+                }
+                &:hover{
+                  transition: 0.5s;
+                  opacity: 0.5s;
+                  color: $darkgray;
+                }
+              }
+            }
+          }
+        }
+      }
+      .right{
+        @include respond(mobile) {
+          margin-top: 30px;
+        }
+        img{
+          width: 90%;
+          height: 300px;
+          object-fit: cover;
+          object-position: center;
+          border-radius: 45px 0px 45px 0;
+          float: right;
+          box-shadow: 2px 5px 10px #787878;
+          @include respond(tablet) {
+            width: 100%;
+            height: 250px;
+          }
+        }
+      }
+    }
+  }
+  .service-request{
+    margin-top: 50px;
+    .plain-card{
+      h5{
+        font-size: 16px;
+        font-weight: 600;
+        color: $black;
+      }
+      p{
+        color: $darkgray;
+        padding-top: 10px;
+        font-size: 14px;
+      }
+      .service-btn{
+        margin-top: 30px;
+      }
+    }
+  }
+}

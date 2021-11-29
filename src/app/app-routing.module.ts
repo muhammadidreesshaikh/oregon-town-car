@@ -46,6 +46,10 @@ const routes: Routes = [
     path: 'globalnetwork',
     loadChildren: () => import('./components/global-chauffeur-network/global-chauffeur-network.module').then(m => m.GlobalChauffeurNetworkModule)
   },
+  {
+    path: 'contactus',
+    loadChildren: () => import('./components/contact-us/contact-us.module').then(m => m.ContactUsModule)
+  },
 ];
 
 @NgModule({
