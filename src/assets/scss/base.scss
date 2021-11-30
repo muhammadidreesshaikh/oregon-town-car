@@ -67,7 +67,7 @@ input[type="color"]:focus,
 }
 
 .plain-card {
-  border-radius: 7px;
+  border-radius: 10px;
   border: none;
   box-shadow: 0 5px 15px rgb(0 0 0 / 27%);
   padding: 25px;
@@ -84,7 +84,7 @@ input[type="color"]:focus,
       &::after{
         content: "";
         position: absolute;
-        top: 55%;
+        top: 130%;
         right: 46%;
         width: 8%;
         height: 4px;
@@ -93,13 +93,13 @@ input[type="color"]:focus,
       }
     }
   }
-  .sub-header{
-    margin-top: 35px;
-    h6{
-      font-size: 16px;
-      color: $darkgray;
-    }
-  }
+  // .sub-header{
+  //   margin-top: 35px;
+  //   h6{
+  //     font-size: 16px;
+  //     color: $darkgray;
+  //   }
+  // }
 }
 
 .all-center {
