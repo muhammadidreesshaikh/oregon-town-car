@@ -79,6 +79,14 @@
             font-size: 1rem;
           }
         }
+        a{
+          color: $white;
+          font-size: 0.938rem;
+          font-weight: 500;
+          @include respond(mobile) {
+            font-size: 1rem;
+          }
+        }
         p{
           color: $gray;
           padding-top: 0.188rem;
