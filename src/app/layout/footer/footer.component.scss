@@ -57,7 +57,7 @@
       .icon{
         i{
           color: $gray;
-          border: 0.188rem solid #78068d;
+          border: 0.188rem solid $purple;
           border-radius: 1.25rem;
           padding: 0.375rem 0.438rem;
           width: 35px;
@@ -66,8 +66,8 @@
           &:hover{
             opacity: 0.5s;
             transition: 0.5s;
-            border: 3px solid #fc6d43;
-            color: #78068d;
+            border: 3px solid $orange;
+            color: $purple;
           }
         }
       }
