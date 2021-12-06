@@ -1,42 +1,42 @@
 @import "../../../../styles.scss";
 
 .service{
-  padding: 60px 0;
+  padding: 3.75rem 0;
   .service-heading{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     h1{
-      font-size: 40px;
+      font-size: 2.5rem;
       font-weight: 600;
       color: $black;
     }
     p{
       color: $darkgray;
-      font-size: 15px;
-      padding-top: 5px;
+      font-size: 0.938rem;
+      padding-top: 0.313rem;
       @include respond(tablet) {
-        font-size: 17px;
-        padding: 0 40px;
+        font-size: 1.063rem;
+        padding: 0 2.5rem;
       }
       @include respond(mobile) {
-        padding: 5px 0;
+        padding: 0.313rem 0;
       }
     }
   }
   .main{
-    margin-top: 60px;
+    margin-top: 3.75rem;
     @include respond(mobile) {
-      margin-top: 20px;
+      margin-top: 1.25rem;
     }
     .service-inner{
-      margin-top: 50px;
+      margin-top: 3.125rem;
       .left{
-        margin-top: 40px;
+        margin-top: 2.5rem;
         @include respond(mobile) {
           margin-top: 0;
         }
         h4{
-          font-size: 23px;
+          font-size: 1.438rem;
           font-weight: 600;
           color: $black;
         }
@@ -44,41 +44,41 @@
           background: $default;
           width: 50px;
           height: 3px;
-          border-radius: 7px;
-          margin-top: 10px;
+          border-radius: 0.438rem;
+          margin-top: 0.625rem;
         }
         p{
-          padding-top: 15px;
-          font-size: 15px;
+          padding-top: 0.938rem;
+          font-size: 0.938rem;
           color: $darkgray;
           @include respond(tablet) {
-            font-size: 16px;
+            font-size: 1rem;
           }
           @include respond(mobile) {
-            font-size: 17px;
+            font-size: 1.063rem;
           }
         }
         .types{
-          margin-top: 20px;
+          margin-top: 1.25rem;
           ul{
             padding-left: 0;
             list-style: none;
             li{
-              padding-top: 10px;
+              padding-top: 0.625rem;
               a{
-                font-size: 16px;
+                font-size: 1rem;
                 color: $black;
                 @include respond(tablet) {
-                  font-size: 15px;
+                  font-size: 0.938rem;
                 }
                 @include respond(mobile) {
-                  font-size: 17px;
+                  font-size: 1.063rem;
                 }
                 @include respond(mobileM) {
-                  font-size: 15px;
+                  font-size: 0.938rem;
                 }
                 i{
-                  padding-right: 7px;
+                  padding-right: 0.438rem;
                   color: $purple;
                 }
                 &:hover{
@@ -93,16 +93,16 @@
       }
       .right{
         @include respond(mobile) {
-          margin-top: 30px;
+          margin-top: 1.875rem;
         }
         img{
           width: 90%;
           height: 300px;
           object-fit: cover;
           object-position: center;
-          border-radius: 45px 0px 45px 0;
+          border-radius: 2.813rem 0px 2.813rem 0;
           float: right;
-          box-shadow: 2px 5px 10px #787878;
+          box-shadow: 0.125rem 0.313rem 0.625rem #787878;
           @include respond(tablet) {
             width: 100%;
             height: 250px;
@@ -112,20 +112,20 @@
     }
   }
   .service-request{
-    margin-top: 50px;
+    margin-top: 3.125rem;
     .plain-card{
       h5{
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 600;
         color: $black;
       }
       p{
         color: $darkgray;
-        padding-top: 10px;
-        font-size: 14px;
+        padding-top: 0.625rem;
+        font-size: 0.875;
       }
       .service-btn{
-        margin-top: 30px;
+        margin-top: 1.875rem;
       }
     }
   }
