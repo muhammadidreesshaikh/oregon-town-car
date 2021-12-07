@@ -11,7 +11,7 @@ export class OurFleetComponent implements OnInit {
     {
       id: 1,
       name: 'Rentals',
-      image: '../assets/img/fleet1.png',
+      image: '.././assets/img/fleet1.png',
       passengers: '4 Passengers',
       bags: '3 Bags',
       private: 'Efficient',
@@ -20,7 +20,7 @@ export class OurFleetComponent implements OnInit {
     {
       id: 2,
       name: 'Bikes & Scooters',
-      image: '../assets/img/fleet2.png',
+      image: '.././assets/img/fleet2.png',
       passengers: '2 Passengers',
       bags: '1 Bags',
       private: 'Private',
@@ -29,7 +29,7 @@ export class OurFleetComponent implements OnInit {
     {
       id: 3,
       name: 'Shared Rides',
-      image: '../assets/img/fleet3.png',
+      image: '.././assets/img/fleet3.png',
       passengers: '4 Passengers',
       bags: '3 Bags',
       private: 'Efficient',
@@ -38,7 +38,7 @@ export class OurFleetComponent implements OnInit {
     {
       id: 4,
       name: 'Private Car',
-      image: '../assets/img/fleet5.png',
+      image: '.././assets/img/fleet5.png',
       passengers: '1 Passengers',
       bags: '3 Bags',
       private: 'Independence',
@@ -47,7 +47,7 @@ export class OurFleetComponent implements OnInit {
     {
       id: 5,
       name: 'Priority Pickup',
-      image: '../assets/img/fleet6.png',
+      image: '.././assets/img/fleet6.png',
       passengers: '3 Passengers',
       bags: '4 Bags',
       private: 'Private',
@@ -56,7 +56,7 @@ export class OurFleetComponent implements OnInit {
     {
       id: 6,
       name: 'Oregon Car XL',
-      image: '../assets/img/fleet8.png',
+      image: '.././assets/img/fleet8.png',
       passengers: '6 Passengers',
       bags: '6 Bags',
       private: 'Extra seats',
@@ -65,7 +65,7 @@ export class OurFleetComponent implements OnInit {
     {
       id: 7,
       name: 'Oregon Car LUX',
-      image: '../assets/img/fleet9.png',
+      image: '.././assets/img/fleet9.png',
       passengers: '2 Passengers',
       bags: '3 Bags',
       private: 'Premium',
@@ -74,7 +74,7 @@ export class OurFleetComponent implements OnInit {
     {
       id: 8,
       name: 'Transit',
-      image: '../assets/img/fleet10.png',
+      image: '.././assets/img/fleet10.png',
       passengers: '27 Passengers',
       bags: '27 Bags',
       private: 'Efficient',
