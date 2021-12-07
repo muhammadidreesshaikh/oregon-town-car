@@ -4,14 +4,14 @@
   padding: 3.75rem 0;
   .global-inner {
     text-align: center;
-    margin-top: 4.375rem;
-    h1 {
-      font-size: 2.188rem;
-      color: $black;
-      @include respond(tablet) {
-        font-size: 1.875rem;
-      }
-    }
+    margin-top: 3.125rem;
+    // h1 {
+    //   font-size: 2.188rem;
+    //   color: $black;
+    //   @include respond(tablet) {
+    //     font-size: 1.875rem;
+    //   }
+    // }
     p {
       color: $darkgray;
       font-size: 0.875rem;
